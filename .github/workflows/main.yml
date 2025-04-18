@@ -2,7 +2,7 @@ name: Fetch and Update Haberler
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Her 6 saatte bir çalıştır
+    - cron: '0 * * * *'  # Her saat başı çalıştır
   workflow_dispatch:  # Manuel tetikleme için
 
 jobs:
